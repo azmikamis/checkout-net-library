@@ -66,6 +66,7 @@
     <Compile Include="CustomerService\CustomerServiceTests.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DrinkService\DrinkServiceTests.cs" />
     <Compile Include="ErrorResponse\ErrorResponseTests.cs">
       <SubType>Code</SubType>
     </Compile>

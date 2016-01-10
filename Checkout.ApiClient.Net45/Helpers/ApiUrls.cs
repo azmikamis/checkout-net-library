@@ -22,6 +22,8 @@ public class ApiUrls
     private static string _cardsApiUri;
     private static string _cardApiUri;
 
+    private static string _drinkApiUri;
+
     public static void ResetApiUrls()
     {
         _cardTokensApiUri = null;
@@ -160,6 +162,12 @@ public class ApiUrls
         }
     }
 
-
+    public static string Drink
+    {
+        get
+        {
+            return _drinkApiUri ?? (_drinkApiUri = string.Concat(AppSettings.BaseApiUri, "/Drinks/{0}"));
+        }
+    }
 
 }

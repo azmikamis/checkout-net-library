@@ -81,6 +81,8 @@
     <Compile Include="ApiServices\Customers\ResponseModels\CustomerList.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ApiServices\Drinks\DrinkService.cs" />
+    <Compile Include="ApiServices\Drinks\ResponseModels\DrinkRecord.cs" />
     <Compile Include="ApiServices\SharedModels\BasePagination.cs" />
     <Compile Include="ApiServices\SharedModels\BillingDescriptor.cs" />
     <Compile Include="ApiServices\SharedModels\Phone.cs" />
